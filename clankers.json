@@ -42,6 +42,12 @@
     "last_pr": "2026-05-17T07:58:37.743Z"
   },
   {
+    "username": "haisui157",
+    "total_prs": 2,
+    "first_pr": "2026-05-17T08:29:10.979Z",
+    "last_pr": "2026-05-17T08:48:46.508Z"
+  },
+  {
     "username": "CuboYe",
     "total_prs": 1,
     "first_pr": "2026-05-16T16:52:10.623Z",
@@ -76,11 +82,5 @@
     "total_prs": 1,
     "first_pr": "2026-05-17T08:16:30.474Z",
     "last_pr": "2026-05-17T08:16:30.474Z"
-  },
-  {
-    "username": "haisui157",
-    "total_prs": 1,
-    "first_pr": "2026-05-17T08:29:10.979Z",
-    "last_pr": "2026-05-17T08:29:10.979Z"
   }
 ]
