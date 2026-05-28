@@ -150,6 +150,12 @@
     "last_pr": "2026-05-27T10:11:03.222Z"
   },
   {
+    "username": "jjb9707",
+    "total_prs": 6,
+    "first_pr": "2026-05-28T13:18:17.856Z",
+    "last_pr": "2026-05-28T22:57:10.675Z"
+  },
+  {
     "username": "malsony",
     "total_prs": 5,
     "first_pr": "2026-05-17T10:21:35.699Z",
@@ -160,12 +166,6 @@
     "total_prs": 5,
     "first_pr": "2026-05-21T11:42:57.311Z",
     "last_pr": "2026-05-21T16:04:04.468Z"
-  },
-  {
-    "username": "jjb9707",
-    "total_prs": 5,
-    "first_pr": "2026-05-28T13:18:17.856Z",
-    "last_pr": "2026-05-28T22:39:56.736Z"
   },
   {
     "username": "AnirudhPrakashCMU",
