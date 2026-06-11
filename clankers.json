@@ -132,6 +132,12 @@
     "last_pr": "2026-06-08T05:38:31.984Z"
   },
   {
+    "username": "mkcash",
+    "total_prs": 12,
+    "first_pr": "2026-06-05T10:51:54.241Z",
+    "last_pr": "2026-06-11T07:19:20.237Z"
+  },
+  {
     "username": "arthurus36-alt",
     "total_prs": 11,
     "first_pr": "2026-05-20T12:50:22.241Z",
@@ -142,12 +148,6 @@
     "total_prs": 11,
     "first_pr": "2026-05-28T17:53:27.011Z",
     "last_pr": "2026-05-28T18:34:47.974Z"
-  },
-  {
-    "username": "mkcash",
-    "total_prs": 11,
-    "first_pr": "2026-06-05T10:51:54.241Z",
-    "last_pr": "2026-06-11T07:17:37.691Z"
   },
   {
     "username": "mvmax-dev",
