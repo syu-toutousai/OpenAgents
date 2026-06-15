@@ -378,6 +378,12 @@
     "last_pr": "2026-06-07T10:18:59.395Z"
   },
   {
+    "username": "maojianian25-png",
+    "total_prs": 2,
+    "first_pr": "2026-06-14T19:04:10.410Z",
+    "last_pr": "2026-06-15T20:03:46.228Z"
+  },
+  {
     "username": "CuboYe",
     "total_prs": 1,
     "first_pr": "2026-05-16T16:52:10.623Z",
@@ -562,11 +568,5 @@
     "total_prs": 1,
     "first_pr": "2026-06-13T08:15:23.362Z",
     "last_pr": "2026-06-13T08:15:23.362Z"
-  },
-  {
-    "username": "maojianian25-png",
-    "total_prs": 1,
-    "first_pr": "2026-06-14T19:04:10.410Z",
-    "last_pr": "2026-06-14T19:04:10.410Z"
   }
 ]
