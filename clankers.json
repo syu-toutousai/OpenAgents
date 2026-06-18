@@ -402,6 +402,12 @@
     "last_pr": "2026-06-15T20:03:46.228Z"
   },
   {
+    "username": "michaelxmchn",
+    "total_prs": 2,
+    "first_pr": "2026-06-18T04:24:14.256Z",
+    "last_pr": "2026-06-18T05:06:16.552Z"
+  },
+  {
     "username": "CuboYe",
     "total_prs": 1,
     "first_pr": "2026-05-16T16:52:10.623Z",
@@ -586,11 +592,5 @@
     "total_prs": 1,
     "first_pr": "2026-06-13T08:15:23.362Z",
     "last_pr": "2026-06-13T08:15:23.362Z"
-  },
-  {
-    "username": "michaelxmchn",
-    "total_prs": 1,
-    "first_pr": "2026-06-18T04:24:14.256Z",
-    "last_pr": "2026-06-18T04:24:14.256Z"
   }
 ]
