@@ -408,6 +408,12 @@
     "last_pr": "2026-06-15T20:03:46.228Z"
   },
   {
+    "username": "18zhigang",
+    "total_prs": 2,
+    "first_pr": "2026-06-21T03:12:36.699Z",
+    "last_pr": "2026-06-21T03:15:29.460Z"
+  },
+  {
     "username": "CuboYe",
     "total_prs": 1,
     "first_pr": "2026-05-16T16:52:10.623Z",
@@ -598,11 +604,5 @@
     "total_prs": 1,
     "first_pr": "2026-06-20T23:12:40.806Z",
     "last_pr": "2026-06-20T23:12:40.806Z"
-  },
-  {
-    "username": "18zhigang",
-    "total_prs": 1,
-    "first_pr": "2026-06-21T03:12:36.699Z",
-    "last_pr": "2026-06-21T03:12:36.699Z"
   }
 ]
