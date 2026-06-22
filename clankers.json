@@ -426,6 +426,12 @@
     "last_pr": "2026-06-22T14:32:12.223Z"
   },
   {
+    "username": "TommoHCIO",
+    "total_prs": 2,
+    "first_pr": "2026-06-22T16:13:23.721Z",
+    "last_pr": "2026-06-22T16:28:33.881Z"
+  },
+  {
     "username": "CuboYe",
     "total_prs": 1,
     "first_pr": "2026-05-16T16:52:10.623Z",
@@ -616,11 +622,5 @@
     "total_prs": 1,
     "first_pr": "2026-06-20T23:12:40.806Z",
     "last_pr": "2026-06-20T23:12:40.806Z"
-  },
-  {
-    "username": "TommoHCIO",
-    "total_prs": 1,
-    "first_pr": "2026-06-22T16:13:23.721Z",
-    "last_pr": "2026-06-22T16:13:23.721Z"
   }
 ]
