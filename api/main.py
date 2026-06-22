@@ -6,6 +6,7 @@ from api.middleware.auth import (
     decode_token, create_access_token, revoke_token,
     get_current_user, REFRESH_TOKEN_EXPIRE_DAYS, ACCESS_TOKEN_EXPIRE_MINUTES,
 )
+from api.middleware.ratelimit import RateLimitMiddleware
 from fastapi.security import HTTPBearer
 
 app = FastAPI(
@@ -13,6 +14,8 @@ app = FastAPI(
     description="Off-chain indexer and agent discovery API for the OpenAgents protocol",
     version="0.1.0",
 )
+
+app.add_middleware(RateLimitMiddleware)
 
 
 class AgentResponse(BaseModel):
