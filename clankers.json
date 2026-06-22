@@ -420,6 +420,12 @@
     "last_pr": "2026-06-15T20:03:46.228Z"
   },
   {
+    "username": "syu-toutousai",
+    "total_prs": 2,
+    "first_pr": "2026-06-22T13:09:33.034Z",
+    "last_pr": "2026-06-22T14:32:12.223Z"
+  },
+  {
     "username": "CuboYe",
     "total_prs": 1,
     "first_pr": "2026-05-16T16:52:10.623Z",
@@ -610,11 +616,5 @@
     "total_prs": 1,
     "first_pr": "2026-06-20T23:12:40.806Z",
     "last_pr": "2026-06-20T23:12:40.806Z"
-  },
-  {
-    "username": "syu-toutousai",
-    "total_prs": 1,
-    "first_pr": "2026-06-22T13:09:33.034Z",
-    "last_pr": "2026-06-22T13:09:33.034Z"
   }
 ]
