@@ -1,7 +1,12 @@
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import FastAPI, HTTPException, Query, Depends
 from pydantic import BaseModel
 from typing import Optional
 from datetime import datetime
+from api.middleware.auth import (
+    decode_token, create_access_token, revoke_token,
+    get_current_user, REFRESH_TOKEN_EXPIRE_DAYS, ACCESS_TOKEN_EXPIRE_MINUTES,
+)
+from fastapi.security import HTTPBearer
 
 app = FastAPI(
     title="OpenAgents API",
@@ -39,9 +44,45 @@ class LeaderboardEntry(BaseModel):
     success_rate: float
 
 
+class TokenRefreshRequest(BaseModel):
+    refresh_token: str
+
+
+class TokenRevokeRequest(BaseModel):
+    token: str
+
+
+class TokenRefreshResponse(BaseModel):
+    token: str
+    expires_in: int
+
+
 # In-memory store (placeholder for DB)
 agents_cache: dict = {}
 tasks_cache: dict = {}
+
+
+@app.post("/auth/refresh", response_model=TokenRefreshResponse)
+async def refresh_token(body: TokenRefreshRequest):
+    payload = decode_token(body.refresh_token)
+    if payload.get("type") != "refresh":
+        raise HTTPException(status_code=401, detail="Invalid token type")
+    data = {
+        "sub": payload.get("sub"),
+        "address": payload.get("address"),
+        "roles": payload.get("roles", []),
+    }
+    new_token = create_access_token(data)
+    return TokenRefreshResponse(token=new_token, expires_in=ACCESS_TOKEN_EXPIRE_MINUTES * 60)
+
+
+@app.post("/auth/revoke")
+async def revoke(body: TokenRevokeRequest, user: dict = Depends(get_current_user)):
+    payload = decode_token(body.token)
+    jti = payload.get("jti")
+    if jti:
+        revoke_token(jti)
+    return {"status": "revoked"}
 
 
 @app.get("/agents", response_model=list[AgentResponse])
